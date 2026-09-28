@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="globalpallet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../shared/xml/schema/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <storeData>
+		<name>
+			<en>Global Goods Transport Pallet</en>
+			<de>Globale Warentransport-Palette</de>
+			<es>Palé De Transporte De Mercancías Global</es>
+		</name>
+        <functions>
+            <function>$l10n_function_globalpallet</function>
+        </functions>
+        <specs>
+            <weight ignore="true"/>
+        </specs>
+        <image>store_transportpallet.png</image>
+        <price>1000</price>
+        <lifetime>600</lifetime>
+        <rotation>0</rotation>
+        <brand>LIZARDGOODS</brand>
+        <category>pallets</category>
+        <financeCategory>OTHER</financeCategory>
+        <shopHeight>2</shopHeight>
+        <shopTranslationOffset>0 0.2 0</shopTranslationOffset>
+        <vertexBufferMemoryUsage>487680</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>76800</indexBufferMemoryUsage>
+        <textureMemoryUsage>5177344</textureMemoryUsage>
+        <audioMemoryUsage>0</audioMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <base>
+        <typeDesc>$l10n_typeDesc_pallet</typeDesc>
+        <filename>transportpallet.i3d</filename>
+        <size width="4" length="4" height="4"/>
+        <supportsPickUp>true</supportsPickUp>
+        <components maxMass="850">
+            <component centerOfMass="0 0.1 0" solverIterationCount="40" mass="150" />
+        </components>
+        <mapHotspot available="false" />
+        <schemaOverlay attacherJointPosition="0 0" name="IMPLEMENT" />
+    </base>
+
+    <attachable>
+        <inputAttacherJoints>
+            <inputAttacherJoint node="attacherJoint_TH_0" jointType="telehandler">
+				<objectChange node="telehandlerFork_vis_0" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_TH_1" jointType="telehandler">
+				<objectChange node="telehandlerFork_vis_1" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_TH_2" jointType="telehandler">
+				<objectChange node="telehandlerFork_vis_2" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_TH_3" jointType="telehandler">
+				<objectChange node="telehandlerFork_vis_3" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_WL_0" jointType="wheelLoader">
+				<objectChange node="wheelLoaderFork_vis_0" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_WL_1" jointType="wheelLoader">
+				<objectChange node="wheelLoaderFork_vis_1" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_WL_2" jointType="wheelLoader">
+				<objectChange node="wheelLoaderFork_vis_2" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_WL_3" jointType="wheelLoader">
+				<objectChange node="wheelLoaderFork_vis_3" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_SS_0" jointType="skidSteer">
+				<objectChange node="paladinPalletFork_vis_0" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_SS_1" jointType="skidSteer">
+				<objectChange node="paladinPalletFork_vis_1" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_SS_2" jointType="skidSteer">
+				<objectChange node="paladinPalletFork_vis_2" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_SS_3" jointType="skidSteer">
+				<objectChange node="paladinPalletFork_vis_3" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_FL_0" jointType="frontloader">
+				<objectChange node="frontloaderPalletFork_vis_0" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_FL_1" jointType="frontloader">
+				<objectChange node="frontloaderPalletFork_vis_1" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_FL_2" jointType="frontloader">
+				<objectChange node="frontloaderPalletFork_vis_2" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+            <inputAttacherJoint node="attacherJoint_FL_3" jointType="frontloader">
+				<objectChange node="frontloaderPalletFork_vis_3" visibilityActive="true" visibilityInactive="false"/>
+			</inputAttacherJoint>
+<!-- 			<inputAttacherJoint node="gooseneckAttacherJoint_0" jointType="semitrailer" upperRotationOffset="0"/>
+			<inputAttacherJoint node="gooseneckAttacherJoint_0" jointType="semitrailerCar" />
+			<inputAttacherJoint node="gooseneckAttacherJoint_1" jointType="semitrailer" upperRotationOffset="0"/>
+			<inputAttacherJoint node="gooseneckAttacherJoint_1" jointType="semitrailerCar" /> -->
+        </inputAttacherJoints>
+    </attachable>
+
+    <animations>
+        <animation name="bigBagSizeAnimation">
+            <part node="top_modifier" 		startTime="0.0" endTime="1.0" startTrans="0 -0.644 0" endTrans="0 0.671 0" />
+            <part node="middle_modifier" 	startTime="0.0" endTime="1.0" startTrans="0 -0.625 0" endTrans="0 0.121 0" />
+        </animation>
+        <animation name="openCover">
+			<part node="pallet_big_cover" 	startTime="0.00" endTime="0.01" visibility="true" />
+			<part node="pallet_big_cover" 	startTime="0.01" endTime="0.02" visibility="false" />
+        </animation>
+    </animations>
+	
+	<cover>
+		 <coverConfigurations>
+			<coverConfiguration>
+				<cover openAnimation="openCover" 	fillUnitIndices="1" openOnBuy="true"/>
+            </coverConfiguration>
+        </coverConfigurations>
+    </cover>
+
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration name="$l10n_configuration_valueDefault">
+                <fillUnits fillTypeChangeThreshold="0">
+                    <fillUnit shopDisplayUnit="CUBICMETER" fillTypeCategories="BULK LOC_SA LOC_PRODUCTS LOC_PLATINUM LOC_BIGBAGS LOC_GRAINMILL LOC_PACKING LOC_FARMPROD LOC_DONUT LOC_OTHERS LOC_SEEDPOTATO LOC_PAPER LOC_PLANTY LOC_BARREL" capacity="10000" updateMass="false" allowAILoading="true">
+                        <dashboard displayType="ANIMATION" valueType="fillLevel" animName="bigBagSizeAnimation"/>
+						<exactFillRootNode node="exactFillRootNode" />
+						<autoAimTargetNode node="fillAutoAimTarget1" startZ="1" endZ="-1" invert="false" fillUnitIndex="1" startPercentage="0"/>
+                    </fillUnit>
+                </fillUnits>
+            </fillUnitConfiguration>
+            <fillUnitConfiguration name="$l10n_configuration_valueUnreal">
+                <fillUnits fillTypeChangeThreshold="0">
+					<fillUnit shopDisplayUnit="CUBICMETER" fillTypeCategories="BULK LOC_SA LOC_PRODUCTS LOC_PLATINUM LOC_BIGBAGS LOC_GRAINMILL LOC_PACKING LOC_FARMPROD LOC_DONUT LOC_OTHERS LOC_SEEDPOTATO LOC_PAPER LOC_PLANTY LOC_BARREL" capacity="200000" updateMass="false" allowAILoading="true">
+                        <dashboard displayType="ANIMATION" valueType="fillLevel" animName="bigBagSizeAnimation"/>
+						<exactFillRootNode node="exactFillRootNode" />
+						<autoAimTargetNode node="fillAutoAimTarget1" startZ="0.9" endZ="-2.8" invert="false" fillUnitIndex="1" startPercentage="0"/>
+                    </fillUnit>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+
+	<dischargeable requiresTipOcclusionArea="false">
+        <dischargeNode node="dischargeNode" emptySpeed="1500" fillUnitIndex="1" maxDistance="6" canStartDischargeAutomatically="true" playSound="true"/>
+    </dischargeable>
+
+	<ai>
+        <allowTurnBackward value="false"/>
+        <agentAttachment width="2.7" height="3" length="2" lengthOffset="1.0"/>
+    </ai>
+
+	<tensionBeltObject>
+        <meshNodes>
+            <meshNode node="metal_part"/>
+        </meshNodes>
+    </tensionBeltObject>
+	
+	<suspensions>
+        <suspension node="top_modifier_susp" weight="250" maxTranslation="0.1 0.1 0.1" minTranslation="-0.1 -0.1 -0.1" suspensionParametersX="20 4" suspensionParametersY="20 4" suspensionParametersZ="20 4" />
+        <suspension node="middle_modifier_susp" weight="150" maxTranslation="0.1 0.1 0.1" minTranslation="-0.1 -0.1 -0.1" suspensionParametersX="20 4" suspensionParametersY="20 4" suspensionParametersZ="20 4" />
+    </suspensions>
+	
+    <fillTriggerVehicle triggerNode="fillTrigger" fillUnitIndex="1" litersPerSecond="2000"/>
+
+	<dynamicMount triggerNode="dynamicMountTrigger" triggerForceAcceleration="4" additionalMountDistance="0.45" jointTransY="0.11" jointLimitToRotY="true"/>
+
+	<baseMaterial>
+        <material name="pallet_big_base_color_mat" baseNode="metal_part">
+            <shaderParameter name="colorMat0" value="0.65 0.65 0.7" material="3"/>
+        </material>
+    </baseMaterial>
+		
+    <baseMaterialConfigurations useDefaultColors="true" price="0">
+		<baseMaterialConfiguration name="$l10n_color_stainless_steel" color="1 1 1" material="8" />
+		<baseMaterialConfiguration name="$l10n_color_galvan" color="0.7 0.7 0.72" material="4" />
+		<baseMaterialConfiguration name="$l10n_color_metal1" color="0.7 0.7 0.72" material="45" />
+		<baseMaterialConfiguration name="$l10n_color_dark_steel" color="0.35 0.35 0.40" material="8" />
+		<baseMaterialConfiguration name="$l10n_color_aluminum" color="0.65 0.65 0.75" material="3" />
+		<baseMaterialConfiguration name="$l10n_color_chrome" color="0.9 0.9 1" material="2"  />
+		<baseMaterialConfiguration name="$l10n_color_polished" color="0.95 0.95 1" material="3" />
+		<baseMaterialConfiguration name="$l10n_color_chromerfection_1" color="0.855 0.855 0.955" material="2" />
+		<baseMaterialConfiguration name="$l10n_color_chromerfection_2" color="0.855 0.855 0.955" material="48" />
+		<baseMaterialConfiguration name="$l10n_color_copperfection_1" color="0.855 0.475 0.325" material="2" />
+		<baseMaterialConfiguration name="$l10n_color_copperfection_2" color="0.855 0.475 0.325" material="48" />
+		<baseMaterialConfiguration name="$l10n_color_chrome_black-out_1" color="0.155 0.155 0.155" material="2" />
+		<baseMaterialConfiguration name="$l10n_color_chrome_black-out_2" color="0.155 0.155 0.155" material="48" />
+		<baseMaterialConfiguration name="$l10n_color_gun_metal" color="SHARED_GREY5" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_dark_moon" color="0.02 0.02 0.02" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_black" color="0.02 0.02 0.02" material="0" />
+		<baseMaterialConfiguration name="$l10n_color_black_aged" color="0.017 0.017 0.017" material="6" />
+		<baseMaterialConfiguration name="$l10n_color_phoenix_blue" color="0 0.051 0.349" material="0" />
+		<baseMaterialConfiguration name="$l10n_color_phoenix_blue_new_age" color="0 0.051 0.349" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_phoenix_blue_aged" color="0 0.051 0.349" material="6" />
+		<baseMaterialConfiguration name="$l10n_color_pure_white" color="STOLL_WHITE2" material="0" />
+		<baseMaterialConfiguration name="$l10n_color_pearl_white" color="STOLL_WHITE2" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_white_aged" color="STOLL_WHITE2" material="6" />
+		<baseMaterialConfiguration name="$l10n_color_ruby_red" color="0.3 0 0.004" material="0" />
+		<baseMaterialConfiguration name="$l10n_color_ruby_red_new_age" color="0.3 0 0.004" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_ruby_red_aged" color="0.3 0 0.004" material="6" />
+		<baseMaterialConfiguration name="$l10n_color_race_red" color="0.657 0.012 0" material="0" />
+		<baseMaterialConfiguration name="$l10n_color_race_red_new_age" color="0.657 0.012 0" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_race_red_aged" color="0.657 0.012 0" material="6" />
+		<baseMaterialConfiguration name="$l10n_color_jungle_fever" color="0.353 0.584 0.569" material="0" />
+		<baseMaterialConfiguration name="$l10n_color_jungle_fever_new_age" color="0.353 0.584 0.569" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_jungle_fever_aged" color="0.353 0.584 0.569" material="6" />
+		<baseMaterialConfiguration name="$l10n_color_old_citadel" color="0.353 0 0.353" material="0" />
+		<baseMaterialConfiguration name="$l10n_color_old_citadel_new_age" color="0.353 0 0.353" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_old_citadel_aged" color="0.353 0 0.353" material="6" />
+		<baseMaterialConfiguration name="$l10n_color_tiffany_blue" color="0.031 0.584 0.569" material="0" />
+		<baseMaterialConfiguration name="$l10n_color_tiffany_blue_new_age" color="0.031 0.584 0.569" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_tiffany_blue_aged" color="0.031 0.584 0.569" material="6" />
+		<baseMaterialConfiguration name="$l10n_color_school_bus" color="BREDAL_ORANGE2" material="0" />
+		<baseMaterialConfiguration name="$l10n_color_school_bus_new_age" color="BREDAL_ORANGE2" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_school_bus_aged" color="BREDAL_ORANGE2" material="6" />
+		<baseMaterialConfiguration name="$l10n_color_cone_orange" color="HUSQVARNA_ORANGE1" material="0" />
+		<baseMaterialConfiguration name="$l10n_color_cone_orange_new_age" color="HUSQVARNA_ORANGE1" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_cone_orange_aged" color="HUSQVARNA_ORANGE1" material="6" />
+		<baseMaterialConfiguration name="$l10n_color_jack_moose" color="0.086 0 0" material="0" />
+		<baseMaterialConfiguration name="$l10n_color_jack_moose_aged" color="0.086 0 0" material="6" />
+		<baseMaterialConfiguration name="$l10n_color_jack_moose_new_age" color="0.086 0 0" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_biscuit_green" color="0.027 0.058 0.048" material="0" />
+		<baseMaterialConfiguration name="$l10n_color_biscuit_green_new_age" color="0.027 0.058 0.048" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_biscuit_green_aged" color="0.027 0.058 0.048" material="6" />
+		<baseMaterialConfiguration name="$l10n_color_white_gold" color="0.973 0.976 0.545" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_bronze_fire" color="0.153 0.029 0.01" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_new_silver" color="SHARED_GREY2" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_scarlet_red" color="CASEIH_RED1" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_blaze_orange" color="FLIEGL_ORANGE1" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_nitro_blue" color="NEWHOLLAND_BLUE1" material="27" />
+		<baseMaterialConfiguration name="$l10n_color_deep_blue" color="HATZENBICHLER_DARKBLUE1" material="27" />
+		
+        <material name="pallet_big_base_color_mat" shaderParameter="colorMat0" />
+    </baseMaterialConfigurations>
+	
+<i3dMappings>
+  <i3dMapping id="bigpallet_maincomponent1" node="0>" />
+  <i3dMapping id="attacherJoints" node="0>0" />
+  <i3dMapping id="telehandler" node="0>0|0" />
+  <i3dMapping id="telehandlerFork_vis_0" node="0>0|0|0" />
+  <i3dMapping id="attacherJoint_TH_0" node="0>0|0|0|0" />
+  <i3dMapping id="decals_0" node="0>0|0|0|1" />
+  <i3dMapping id="telehandlerFork_vis_1" node="0>0|0|1" />
+  <i3dMapping id="attacherJoint_TH_1" node="0>0|0|1|0" />
+  <i3dMapping id="decals_1" node="0>0|0|1|1" />
+  <i3dMapping id="telehandlerFork_vis_2" node="0>0|0|2" />
+  <i3dMapping id="attacherJoint_TH_2" node="0>0|0|2|0" />
+  <i3dMapping id="decals_2" node="0>0|0|2|1" />
+  <i3dMapping id="telehandlerFork_vis_3" node="0>0|0|3" />
+  <i3dMapping id="attacherJoint_TH_3" node="0>0|0|3|0" />
+  <i3dMapping id="decals_3" node="0>0|0|3|1" />
+  <i3dMapping id="skidsteer" node="0>0|1" />
+  <i3dMapping id="paladinPalletFork_vis_0" node="0>0|1|0" />
+  <i3dMapping id="attacherJoint_SS_0" node="0>0|1|0|0" />
+  <i3dMapping id="alphaPart_0" node="0>0|1|0|1" />
+  <i3dMapping id="paladinPalletFork_vis_1" node="0>0|1|1" />
+  <i3dMapping id="attacherJoint_SS_1" node="0>0|1|1|0" />
+  <i3dMapping id="alphaPart_1" node="0>0|1|1|1" />
+  <i3dMapping id="paladinPalletFork_vis_2" node="0>0|1|2" />
+  <i3dMapping id="attacherJoint_SS_2" node="0>0|1|2|0" />
+  <i3dMapping id="alphaPart_2" node="0>0|1|2|1" />
+  <i3dMapping id="paladinPalletFork_vis_3" node="0>0|1|3" />
+  <i3dMapping id="attacherJoint_SS_3" node="0>0|1|3|0" />
+  <i3dMapping id="alphaPart_3" node="0>0|1|3|1" />
+  <i3dMapping id="frontloader" node="0>0|2" />
+  <i3dMapping id="frontloaderPalletFork_vis_0" node="0>0|2|0" />
+  <i3dMapping id="attacherJoint_FL_0" node="0>0|2|0|0" />
+  <i3dMapping id="frontloaderPalletFork_decals_0" node="0>0|2|0|1" />
+  <i3dMapping id="frontloaderPalletFork_vis_1" node="0>0|2|1" />
+  <i3dMapping id="attacherJoint_FL_1" node="0>0|2|1|0" />
+  <i3dMapping id="frontloaderPalletFork_decals_1" node="0>0|2|1|1" />
+  <i3dMapping id="frontloaderPalletFork_vis_2" node="0>0|2|2" />
+  <i3dMapping id="attacherJoint_FL_2" node="0>0|2|2|0" />
+  <i3dMapping id="frontloaderPalletFork_decals_2" node="0>0|2|2|1" />
+  <i3dMapping id="frontloaderPalletFork_vis_3" node="0>0|2|3" />
+  <i3dMapping id="attacherJoint_FL_3" node="0>0|2|3|0" />
+  <i3dMapping id="frontloaderPalletFork_decals_3" node="0>0|2|3|1" />
+  <i3dMapping id="wheelloader" node="0>0|3" />
+  <i3dMapping id="wheelLoaderFork_vis_0" node="0>0|3|0" />
+  <i3dMapping id="decals_4" node="0>0|3|0|0" />
+  <i3dMapping id="attacherJoint_WL_0" node="0>0|3|0|1" />
+  <i3dMapping id="wheelLoaderFork_vis_1" node="0>0|3|1" />
+  <i3dMapping id="decals_5" node="0>0|3|1|0" />
+  <i3dMapping id="attacherJoint_WL_1" node="0>0|3|1|1" />
+  <i3dMapping id="wheelLoaderFork_vis_2" node="0>0|3|2" />
+  <i3dMapping id="decals_6" node="0>0|3|2|0" />
+  <i3dMapping id="attacherJoint_WL_2" node="0>0|3|2|1" />
+  <i3dMapping id="wheelLoaderFork_vis_3" node="0>0|3|3" />
+  <i3dMapping id="decals_7" node="0>0|3|3|0" />
+  <i3dMapping id="attacherJoint_WL_3" node="0>0|3|3|1" />
+  <i3dMapping id="gooseneckAttacherJoint_0" node="0>0|4" />
+  <i3dMapping id="gooseneckAttacherJoint_1" node="0>0|5" />
+  <i3dMapping id="pallet_big_vis" node="0>1" />
+  <i3dMapping id="pallet_big_cover" node="0>1|0" />
+  <i3dMapping id="pallet_big_frame" node="0>1|1" />
+  <i3dMapping id="wood_part" node="0>1|1|0" />
+  <i3dMapping id="metal_part" node="0>1|1|1" />
+  <i3dMapping id="pallet_big_bolts" node="0>1|2" />
+  <i3dMapping id="fillUnit" node="0>1|3" />
+  <i3dMapping id="bigBag_vis" node="0>1|3|0" />
+  <i3dMapping id="fillModifiers" node="0>1|3|1" />
+  <i3dMapping id="top_modifier" node="0>1|3|1|0" />
+  <i3dMapping id="top_modifier_susp" node="0>1|3|1|0|0" />
+  <i3dMapping id="joint12_0" node="0>1|3|1|0|0|0" />
+  <i3dMapping id="joint11_0" node="0>1|3|1|0|0|1" />
+  <i3dMapping id="joint9_0" node="0>1|3|1|0|0|2" />
+  <i3dMapping id="joint14_0" node="0>1|3|1|0|0|3" />
+  <i3dMapping id="joint16_0" node="0>1|3|1|0|0|4" />
+  <i3dMapping id="joint15_0" node="0>1|3|1|0|0|5" />
+  <i3dMapping id="joint13_0" node="0>1|3|1|0|0|6" />
+  <i3dMapping id="joint10_0" node="0>1|3|1|0|0|7" />
+  <i3dMapping id="joint25_0" node="0>1|3|1|0|0|8" />
+  <i3dMapping id="joint26_0" node="0>1|3|1|0|0|9" />
+  <i3dMapping id="joint27_0" node="0>1|3|1|0|0|10" />
+  <i3dMapping id="joint28_0" node="0>1|3|1|0|0|11" />
+  <i3dMapping id="col_top" node="0>1|3|1|0|0|12" />
+  <i3dMapping id="middle_modifier" node="0>1|3|1|1" />
+  <i3dMapping id="middle_modifier_susp" node="0>1|3|1|1|0" />
+  <i3dMapping id="joint12_1" node="0>1|3|1|1|0|0" />
+  <i3dMapping id="joint11_1" node="0>1|3|1|1|0|1" />
+  <i3dMapping id="joint9_1" node="0>1|3|1|1|0|2" />
+  <i3dMapping id="joint14_1" node="0>1|3|1|1|0|3" />
+  <i3dMapping id="joint16_1" node="0>1|3|1|1|0|4" />
+  <i3dMapping id="joint15_1" node="0>1|3|1|1|0|5" />
+  <i3dMapping id="joint13_1" node="0>1|3|1|1|0|6" />
+  <i3dMapping id="joint10_1" node="0>1|3|1|1|0|7" />
+  <i3dMapping id="joint25_1" node="0>1|3|1|1|0|8" />
+  <i3dMapping id="joint26_1" node="0>1|3|1|1|0|9" />
+  <i3dMapping id="joint27_1" node="0>1|3|1|1|0|10" />
+  <i3dMapping id="joint28_1" node="0>1|3|1|1|0|11" />
+  <i3dMapping id="bottom_modifier" node="0>1|3|1|2" />
+  <i3dMapping id="joint12_2" node="0>1|3|1|2|0" />
+  <i3dMapping id="joint11_2" node="0>1|3|1|2|1" />
+  <i3dMapping id="joint9_2" node="0>1|3|1|2|2" />
+  <i3dMapping id="joint14_2" node="0>1|3|1|2|3" />
+  <i3dMapping id="joint16_2" node="0>1|3|1|2|4" />
+  <i3dMapping id="joint15_2" node="0>1|3|1|2|5" />
+  <i3dMapping id="joint13_2" node="0>1|3|1|2|6" />
+  <i3dMapping id="joint10_2" node="0>1|3|1|2|7" />
+  <i3dMapping id="joint25_2" node="0>1|3|1|2|8" />
+  <i3dMapping id="joint26_2" node="0>1|3|1|2|9" />
+  <i3dMapping id="joint27_2" node="0>1|3|1|2|10" />
+  <i3dMapping id="joint28_2" node="0>1|3|1|2|11" />
+  <i3dMapping id="triggers" node="0>1|4" />
+  <i3dMapping id="fillTrigger" node="0>1|4|0" />
+  <i3dMapping id="dischargeTrigger" node="0>1|4|1" />
+  <i3dMapping id="exactFillRootNode" node="0>1|4|2" />
+  <i3dMapping id="dynamicMountTrigger" node="0>1|4|3" />
+  <i3dMapping id="dischargeNode" node="0>1|4|4" />
+  <i3dMapping id="fillAutoAimTarget1" node="0>1|4|5" />
+  <i3dMapping id="collisions" node="0>2" />
+  <i3dMapping id="solidCol" node="0>2|0" />
+  <i3dMapping id="col_base_0" node="0>2|1" />
+  <i3dMapping id="col_base_1" node="0>2|2" />
+  <i3dMapping id="col_base_2" node="0>2|3" />
+  <i3dMapping id="col_base_3" node="0>2|4" />
+</i3dMappings>
+
+</vehicle>

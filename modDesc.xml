@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="72">
+    <author>82Studio</author>
+    <version>1.0.2.0</version>
+	
+	<title>
+		<en>Global Goods Transport Pallet</en>
+		<de>Globale Warentransport-Palette</de>
+		<es>Palé De Transporte De Mercancías Global</es>
+	</title>
+	
+	<description>
+		<en><![CDATA[Global Goods Transport Pallet
+The LIZARD Goods brand presents you the ultimate pallet/bag that you will ever need
+
+Do you have productions? The output from your productions will be AUTOLOADED inside the new pallet/bag.
+Do you have to unload a combine? Transport crops from your silo? Do you need a temporary unload point while you get the money for a new Silo? Yes, all that is covered and more!
+
+In order to operate the pallet and its functions you MUST connect a telehandler, skidsteer, frontloader or a wheelloader (WITHOUT any attachment, USE ONLY THE MACHINE)
+It connects to the pallet/bag and the functions (cover) can be operated.
+
+- Support for additional pallets with products from the following productions, among others:
+Modname: Grain Mill Plus ZipName: FS22_GrainMillPlus.zip
+Modname: Planty Production ZipName: FS22_Planty_Production.zip
+Modname: Packing Facility ZipName: FS22_PackingFacility.zip
+Modname: Production For Empty Pallets And Barrels ZipName: FS22_PalletAndBarrelProduction.zip
+Modname: Production For Paper And Cardboard ZipName: FS22_PaperAndCardboardProduction.zip
+Modname: Donut Production ZipName: FS22_Donut_Production.zip
+Modname: Grain Mill Extended ZipName: FS22_grainMillExtended.zip
+Modname: Donuts Factory ZipName: FS22_DonutsFactory.zip
+Modname: Donuts Factory ZipName: FS22_DonutsFactory.zip
+Modname: Maple Syrup Production ZipName: FS22_MappleSyrupProduction.zip
+Modname: Farm Production Pack ZipName: FS22_yardProductionPack.zip
+
+The pallet supports also:
+- BULK Products
+- INGAME Pallets
+- Recanto Da Alvorada Map: COFFEE ROASTED_COFFEE
+Modname: Recanto Da Alvorada Map ZipName: FS22_Recanto_da_Alvorada.zip
+- La Coronella: MINERAL ALMOND CLEAN_OLIVE OLIVES_LEAVES COMPOST PALLET MELON SANDIA PAPEL CARTON OIL_SUNFLOWER OIL_CANOLA OIL_OLIVE OIL_ALMOND OIL_MAIZE BIOGAS BOX DONUTS CEREALCHOCO SHEEPCHEESE MERMELADAFRESA MERMELADATOMATE ZUMOTOMATE BATIDOFRESA BATIDOCHOCOLATE BATIDO2 BUTTEROIL PELLETS CHIPS
+Modname: La Coronella ZipName: FS22_LaCoronella.zip
+
+It has also an unreal capacity setup, 200.000L
+
+Price: 1000$
+
+Changelog 1.0.2.0
+- PLATINUM DLC PRODUCTIONS SUPPORTED!!
+
+Change Log 1.0.1.0:
+Fixed:
+- Added AUTOLOAD side and DISCHARGE side to prevent unintentional product transfer
+- Product swap when bags are close
+
+]]></en>
+		<de><![CDATA[Globale Warentransport-Palette
+Die Marke LIZARD Goods präsentiert Ihnen die ultimative Palette/Tasche, die Sie jemals brauchen werden
+
+Haben Sie Produktionen? Der Output aus Ihren Produktionen wird AUTOLOADED in die neue Palette/Sack.
+Müssen Sie einen Mähdrescher entladen? Ernten aus Ihrem Silo transportieren? Brauchen Sie eine vorübergehende Entladestelle, bis Sie das Geld für ein neues Silo zusammen haben? Ja, das alles und noch viel mehr ist abgedeckt!
+
+Um die Palette und ihre Funktionen nutzen zu können, MÜSSEN Sie einen Teleskoplader, Kompaktlader, Frontlader oder Radlader anschließen (OHNE Anbaugeräte, NUR MIT DER MASCHINE)
+Sie wird an die Palette/Sack angeschlossen und die Funktionen (Deckel) können bedient werden.
+
+- Unterstützung für zusätzliche Paletten mit Produkten u.a. aus den folgenden Produktionen:
+Modname: Grain Mill Plus ZipName: FS22_GrainMillPlus.zip
+Modname: Plantagenproduktion ZipName: FS22_Planty_Produktion.zip
+Modname: Packing Facility ZipName: FS22_PackingFacility.zip
+Modname: Produktion für leere Paletten und Fässer ZipName: FS22_PalettenUndFassProduktion.zip
+Modname: Produktion für Papier und Pappe ZipName: FS22_PapierUndKartonProduktion.zip
+Modname: Donut-Produktion ZipName: FS22_Donut_Produktion.zip
+Modname: Getreidemühle Erweitert ZipName: FS22_GetreidemühleErweitert.zip
+Modname: Donuts Fabrik ZipName: FS22_DonutsFactory.zip
+Modname: Donuts Fabrik ZipName: FS22_DonutsFactory.zip
+Modname: Ahornsirup-Herstellung ZipName: FS22_MappleSyrupProduction.zip
+Modname: Bauernhof Produktion Pack ZipName: FS22_HofProduktionsPack.zip
+
+Die Palette unterstützt auch:
+- BULK Produkte
+- INGAME Paletten
+- Recanto Da Alvorada Karte: KAFFEE GERÖSTET_KAFFEE
+Modname: Recanto Da Alvorada Karte ZipName: FS22_Recanto_da_Alvorada.zip
+- La Coronella: MINERAL MANDEL SAUBER_OLIVE OLIVEN_BLÄTTER KOMPOST PALETTE MELONE SANDIA PAPIER KARTON ÖL_SONNENBLUMENÖL_RAPSÖL_OLIVENÖL_MANDELÖL_MAIS BIOGAS SCHACHTEL DONUTS MÜSLICHOCO SCHAFSKÄSE MERMELADAFRESA MERMELADATOMATE ZUMOTOMATE BATIDOFRESA BATIDOCHOCOLATE BATIDO2 BUTTERÖL PELLETS CHIPS
+Modname: La Coronella ZipName: FS22_LaCoronella.zip
+
+Es hat auch eine unwirkliche Kapazität Setup, 200.000L
+
+Preis: 1000$
+
+Änderungsprotokoll 1.0.2.0
+- PLATINUM DLC Produktionen!!
+
+Änderungsprotokoll 1.0.1.0:
+Behoben:
+- AUTOLOAD-Seite und DISCHARGE-Seite hinzugefügt, um unbeabsichtigten Produkttransfer zu verhindern
+- Produkttausch, wenn Säcke in der Nähe sind
+
+]]></de>
+		<es><![CDATA[Palet de transporte de mercancías global
+La marca LIZARD Goods presenta lo último en palets/bolsas que necesitarás.
+
+¿Tienes producciones? La salida de tus producciones se carga AUTOMATICAMNETE dentro de la nueva paleta / bolsa.
+¿Tienes que descargar una cosechadora? ¿Transportar cultivos desde tu silo? ¿Necesitas un punto de descarga temporal mientras consigues el dinero para un nuevo Silo?
+Sí, ¡todo eso está cubierto y más!
+
+Para manejar la paleta y sus funciones, DEBES conectar un manipulador telescópico, un skidsteer, un cargador frontal o un cargador de ruedas
+(SIN ningún accesorio, UTILIZA SÓLO LA MÁQUINA)
+Se conecta a la paleta/bolsa y se pueden operar las funciones (cubierta).
+
+- Soporte para paletas adicionales con productos de las siguientes producciones, entre otras:
+Modname: Grain Mill Plus ZipName: FS22_GrainMillPlus.zip
+Modname: Planty Production ZipName: FS22_Planty_Production.zip
+Modname: Packing Facility ZipName: FS22_PackingFacility.zip
+Modname: Production For Empty Pallets And Barrels ZipName: FS22_PalletAndBarrelProduction.zip
+Modname: Production For Paper And Cardboard ZipName: FS22_PaperAndCardboardProduction.zip
+Modname: Producción de Donuts ZipName: FS22_Donut_Production.zip
+Modname: Grain Mill Extended ZipName: FS22_grainMillExtended.zip
+Modname: Donuts Factory ZipName: FS22_DonutsFactory.zip
+Modname: Donuts Factory ZipName: FS22_DonutsFactory.zip
+Modname: Maple Syrup Production ZipName: FS22_MappleSyrupProduction.zip
+Modname: Farm Production Pack ZipName: FS22_yardProductionPack.zip
+
+La paleta también es compatible:
+- Productos a granel
+- Paletas INGAME
+- Mapa Recanto Da Alvorada: CAFÉ_TOSTADO_CAFÉ
+Modname: Mapa Recanto Da Alvorada ZipName: FS22_Recanto_da_Alvorada.zip
+- La Coronella MINERAL ALMENDRA LIMPIA_ACEITUNAS_HOJAS COMPOST PALET MELÓN SANDIA PAPEL CARTÓN ACEITE_GIRASOL_ACEITE DE OLIVA_ACEITE DE ALMENDRA_MAÍZ BIOGÁS CAJA DONUTS CEREALCHOCO OVEJAQUESO MERMELADAFRESA MERMELADATOMATE ZUMOTOMATE BATIDOFRESA BATIDOCHOCOLATE BATIDO2 BUTTEROIL PELLETS CHIPS
+Modname: La Coronella ZipName: FS22_LaCoronella.zip
+
+También tiene una configuración de capacidad irreal, 200.000L
+
+Precio: 1000$
+
+Registro de cambios 1.0.2.0:
+- Añadido soporte para palets del Platinum Expansion
+
+Registro de cambios 1.0.1.0:
+Corregido:
+- Añadido el lado AUTOLOAD y el lado DISCHARGE para evitar la transferencia involuntaria de productos
+- Intercambio de productos cuando las bolsas están cerca
+]]></es>
+	</description>
+	
+    <iconFilename>modIcon.png</iconFilename>
+	
+	<multiplayer supported="true"/>
+	
+    <fillTypes filename="locals/fillTypes.xml" />
+	
+    <storeItems>
+        <storeItem xmlFilename="transportpallet.xml"/>
+        <storeItem xmlFilename="transportpallet_liquids.xml"/>
+        <storeItem xmlFilename="transportbag.xml"/>
+        <storeItem xmlFilename="transportbag_liquids.xml"/>
+    </storeItems>
+
+	<l10n filenamePrefix="translations/l10n"/>
+
+	<vehicleTypes>
+		<type name="globalpallet" parent="trailer" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="fillTriggerVehicle" />
+		</type>
+		<type name="globalpallet_liquids" parent="trailer" filename="$dataS/scripts/vehicles/Vehicle.lua">
+			<specialization name="fillTriggerVehicle" />
+			<specialization name="waterTrailer" />
+		</type>
+	</vehicleTypes>
+	
+	<brands>
+		<brand name="LIZARDGOODS" title="LIZARD Goods" image="$data/store/brands/brand_lizardGoods.dds"/>
+	</brands>
+</modDesc>

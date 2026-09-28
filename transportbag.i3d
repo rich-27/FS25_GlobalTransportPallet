@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="big_pallet" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="9" filename="$data/shared/default_normal.dds"/>
+    <File fileId="18" filename="$data/vehicles/albutt/frontloaderBaleSpike/frontloaderBaleSpikeDecals_diffuse.png"/>
+    <File fileId="16" filename="$data/vehicles/albutt/frontloaderPalletFork/frontloaderPalletFork_normal.png"/>
+    <File fileId="17" filename="$data/vehicles/albutt/frontloaderPalletFork/frontloaderPalletFork_vmask.png"/>
+    <File fileId="8" filename="$data/vehicles/magsi/magsiDecals_diffuse.png"/>
+    <File fileId="10" filename="$data/vehicles/magsi/telehandlerForkDecal_vmask.png"/>
+    <File fileId="2" filename="$data/vehicles/magsi/telehandlerImplements_normal.png"/>
+    <File fileId="3" filename="$data/vehicles/magsi/telehandlerImplements_vmask.png"/>
+    <File fileId="21" filename="$data/vehicles/magsi/wheelLoaderFork_vmask.png"/>
+    <File fileId="19" filename="$data/vehicles/magsi/wheelLoaderImplements_normal.png"/>
+    <File fileId="20" filename="$data/vehicles/magsi/wheelLoaderImplements_vmask.png"/>
+    <File fileId="13" filename="$data/vehicles/paladin/palletFork/palletForkTransparent_diffuse.png"/>
+    <File fileId="14" filename="$data/vehicles/paladin/palletFork/palletForkTransparent_normal.png"/>
+    <File fileId="15" filename="$data/vehicles/paladin/palletFork/palletForkTransparent_vmask.png"/>
+    <File fileId="11" filename="$data/vehicles/paladin/palletFork/palletFork_normal.png"/>
+    <File fileId="12" filename="$data/vehicles/paladin/palletFork/palletFork_vmask.png"/>
+    <File fileId="24" filename="locals/bigbag2_mat_vmask.dds"/>
+    <File fileId="26" filename="locals/bigbag_dispenser_mat_normal.dds"/>
+    <File fileId="27" filename="locals/bigbag_dispenser_mat_vmask.dds"/>
+    <File fileId="22" filename="locals/bigbag_mat_difuse.dds"/>
+    <File fileId="23" filename="locals/bigbag_mat_normal.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="bigbag_mat" materialId="4" customShaderId="4">
+      <Texture fileId="22"/>
+      <Normalmap fileId="23"/>
+      <Glossmap fileId="24"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="col_mat" materialId="5" diffuseColor="0 0.14902 0 0.364706">
+      <Normalmap fileId="9"/>
+    </Material>
+    <Material name="default_mat" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+      <Normalmap fileId="9"/>
+    </Material>
+    <Material name="frontloaderBaleSpikeDecals_mat" materialId="7" customShaderId="4" customShaderVariation="Decal">
+      <Texture fileId="18"/>
+      <Normalmap fileId="9"/>
+      <Glossmap fileId="17"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="lambert1" materialId="8">
+    </Material>
+    <Material name="lambert1" materialId="9" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="lambert1" materialId="10" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="26"/>
+      <Glossmap fileId="27"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.65 0.65 0.65 3"/>
+      <CustomParameter name="colorMat1" value="0.05 0.05 0.05 5"/>
+      <CustomParameter name="colorMat2" value="0.5 0 0 40"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="lambert1" materialId="11" diffuseColor="1 0 1 1" customShaderId="4" customShaderVariation="colorMask">
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 0"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 2"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 3"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="magsiDecals_mat" materialId="12" alphaBlending="true" customShaderId="4" customShaderVariation="Decal">
+      <Texture fileId="8"/>
+      <Normalmap fileId="9"/>
+      <Glossmap fileId="10"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="magsiDecals_mat" materialId="13" alphaBlending="true" customShaderId="4" customShaderVariation="Decal">
+      <Texture fileId="8"/>
+      <Normalmap fileId="9"/>
+      <Glossmap fileId="21"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+    </Material>
+    <Material name="palletFork_mat" materialId="14" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="11"/>
+      <Glossmap fileId="12"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.0357 0.0424 0.0468 16"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="palletForkP340_mat" materialId="15" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="16"/>
+      <Glossmap fileId="17"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.8 0.55 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="palletForkTransparent_alpha_mat" materialId="16" customShaderId="4" customShaderVariation="Decal_colorMask">
+      <Texture fileId="13"/>
+      <Normalmap fileId="14"/>
+      <Glossmap fileId="15"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.0357 0.0424 0.0468 16"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="telehandlerImplements_mat" materialId="17" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.0425 0.0484 0.0531 0"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="wheelLoaderImplements_mat" materialId="18" diffuseColor="0.494118 0.494118 0.494118 1" customShaderId="4" customShaderVariation="colorMask">
+      <Normalmap fileId="19"/>
+      <Glossmap fileId="20"/>
+      <CustomParameter name="RDT" value="0 0 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.0425 0.0484 0.0531 0"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="transportbag.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <Shape shapeId="1" name="bigbag_maincomponent1" dynamic="true" compound="true" collisionMask="2109442" clipDistance="300" nodeId="43" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true">
+        <TransformGroup name="attacherJoints" translation="0 -0.0135369 0" nodeId="44">
+          <TransformGroup name="telehandler" translation="0 0 1.19214e-07" nodeId="45">
+            <Shape shapeId="2" name="telehandlerFork_vis" translation="0 0.000190504 -0.354978" visibility="false" clipDistance="300" nodeId="46" materialIds="17" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="attacherJoint_TH" translation="0 0.439815 -0.787307" rotation="-90 -86.0657 90" nodeId="47"/>
+              <Shape shapeId="3" name="decals" translation="0 0.379014 -0.665149" clipDistance="30" nodeId="48" materialIds="12" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </Shape>
+            <Shape shapeId="2" name="telehandlerFork_vis" translation="0 -6.35013e-05 0.354993" rotation="180 -5.00896e-06 180" visibility="false" clipDistance="300" nodeId="49" materialIds="17" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="attacherJoint_TH" translation="0 0.439815 -0.787307" rotation="-90 -86.0657 90" nodeId="50"/>
+              <Shape shapeId="3" name="decals" translation="0 0.379014 -0.665149" clipDistance="30" nodeId="51" materialIds="12" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </Shape>
+            <Shape shapeId="2" name="telehandlerFork_vis" translation="-0.816 -6.35013e-05 -7.36862e-06" rotation="-0 90 0" visibility="false" clipDistance="300" nodeId="52" materialIds="17" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="attacherJoint_TH" translation="0 0.439815 -0.787307" rotation="-90 -86.0657 90" nodeId="53"/>
+              <Shape shapeId="3" name="decals" translation="0 0.379014 -0.665149" clipDistance="30" nodeId="54" materialIds="12" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </Shape>
+            <Shape shapeId="2" name="telehandlerFork_vis" translation="0.816 -6.35013e-05 -7.36862e-06" rotation="-0 -90 0" visibility="false" clipDistance="300" nodeId="55" materialIds="17" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="attacherJoint_TH" translation="0 0.439815 -0.787307" rotation="-90 -86.0657 90" nodeId="56"/>
+              <Shape shapeId="3" name="decals" translation="0 0.379014 -0.665149" clipDistance="30" nodeId="57" materialIds="12" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </Shape>
+          </TransformGroup>
+          <TransformGroup name="skidsteer" translation="0 0 1.19214e-07" nodeId="58">
+            <Shape shapeId="4" name="paladinPalletFork_vis" translation="-1.04159e-05 0.00541605 -0.615835" visibility="false" clipDistance="300" nodeId="59" materialIds="14" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="attacherJoint_SS" translation="0 0.476317 -0.430597" rotation="-0 -90 0" nodeId="60"/>
+              <Shape shapeId="5" name="alphaPart" clipDistance="300" nodeId="61" materialIds="16" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="4" name="paladinPalletFork_vis" translation="-1.04159e-05 0.00541605 0.616" rotation="0 180 0" visibility="false" clipDistance="300" nodeId="62" materialIds="14" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="attacherJoint_SS" translation="0 0.476317 -0.430597" rotation="-0 -90 0" nodeId="63"/>
+              <Shape shapeId="5" name="alphaPart" clipDistance="300" nodeId="64" materialIds="16" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="4" name="paladinPalletFork_vis" translation="1.1175 0.00541605 -1.0098e-06" rotation="0 -90 0" visibility="false" clipDistance="300" nodeId="65" materialIds="14" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="attacherJoint_SS" translation="0 0.476317 -0.430597" rotation="-0 -90 0" nodeId="66"/>
+              <Shape shapeId="5" name="alphaPart" clipDistance="300" nodeId="67" materialIds="16" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+            <Shape shapeId="4" name="paladinPalletFork_vis" translation="-1.117 0.005 0" rotation="0 90 0" visibility="false" clipDistance="300" nodeId="68" materialIds="14" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="attacherJoint_SS" translation="0 0.476317 -0.430597" rotation="-0 -90 0" nodeId="69"/>
+              <Shape shapeId="5" name="alphaPart" clipDistance="300" nodeId="70" materialIds="16" castsShadows="true" receiveShadows="true"/>
+            </Shape>
+          </TransformGroup>
+          <TransformGroup name="frontloader" translation="0 0 1.19214e-07" nodeId="71">
+            <Shape shapeId="6" name="frontloaderPalletFork_vis" translation="0 0.0022859 -0.434859" visibility="false" clipDistance="300" nodeId="72" materialIds="15" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="attacherJoint_FL" translation="0 0.63125 -0.662314" rotation="90 -81.1085 -90.1425" nodeId="73"/>
+              <Shape shapeId="7" name="frontloaderPalletFork_decals" translation="0 0.617595 -0.544865" clipDistance="50" nodeId="74" materialIds="7" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </Shape>
+            <Shape shapeId="6" name="frontloaderPalletFork_vis" translation="0 0.002 0.435" rotation="0 180 0" visibility="false" clipDistance="300" nodeId="75" materialIds="15" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="attacherJoint_FL" translation="0 0.63125 -0.662314" rotation="90 -81.1085 -90.1425" nodeId="76"/>
+              <Shape shapeId="7" name="frontloaderPalletFork_decals" translation="0 0.617595 -0.544865" clipDistance="50" nodeId="77" materialIds="7" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </Shape>
+            <Shape shapeId="6" name="frontloaderPalletFork_vis" translation="0.943488 0.002 3.07427e-07" rotation="0 -90 0" visibility="false" clipDistance="300" nodeId="78" materialIds="15" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="attacherJoint_FL" translation="0 0.63125 -0.662314" rotation="90 -81.1085 -90.1425" nodeId="79"/>
+              <Shape shapeId="7" name="frontloaderPalletFork_decals" translation="0 0.617595 -0.544865" clipDistance="50" nodeId="80" materialIds="7" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </Shape>
+            <Shape shapeId="6" name="frontloaderPalletFork_vis" translation="-0.943 0.002 0" rotation="0 90 0" visibility="false" clipDistance="300" nodeId="81" materialIds="15" castsShadows="true" receiveShadows="true">
+              <TransformGroup name="attacherJoint_FL" translation="0 0.63125 -0.662314" rotation="90 -81.1085 -90.1425" nodeId="82"/>
+              <Shape shapeId="7" name="frontloaderPalletFork_decals" translation="0 0.617595 -0.544865" clipDistance="50" nodeId="83" materialIds="7" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            </Shape>
+          </TransformGroup>
+          <TransformGroup name="wheelloader" translation="0 0 1.19214e-07" nodeId="84">
+            <Shape shapeId="8" name="wheelLoaderFork_vis" translation="0 -0.0154892 -0.46187" visibility="false" clipDistance="300" nodeId="85" materialIds="18" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="9" name="decals" translation="0 0.457777 -0.595954" clipDistance="30" nodeId="86" materialIds="13" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <TransformGroup name="attacherJoint_WL" translation="0 0.2458 -0.6828" rotation="-90 -84.8496 90" nodeId="87"/>
+            </Shape>
+            <Shape shapeId="8" name="wheelLoaderFork_vis" translation="0 -0.0154892 0.462" rotation="0 180 0" visibility="false" clipDistance="300" nodeId="88" materialIds="18" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="9" name="decals" translation="0 0.457777 -0.595954" clipDistance="30" nodeId="89" materialIds="13" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <TransformGroup name="attacherJoint_WL" translation="0 0.2458 -0.6828" rotation="-90 -84.8496 90" nodeId="90"/>
+            </Shape>
+            <Shape shapeId="8" name="wheelLoaderFork_vis" translation="0.981867 -0.0154892 3.19933e-07" rotation="0 -90 0" visibility="false" clipDistance="300" nodeId="91" materialIds="18" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="9" name="decals" translation="0 0.457777 -0.595954" clipDistance="30" nodeId="92" materialIds="13" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <TransformGroup name="attacherJoint_WL" translation="0 0.2458 -0.6828" rotation="-90 -84.8496 90" nodeId="93"/>
+            </Shape>
+            <Shape shapeId="8" name="wheelLoaderFork_vis" translation="-0.982 -0.015 0" rotation="0 90 0" visibility="false" clipDistance="300" nodeId="94" materialIds="18" castsShadows="true" receiveShadows="true">
+              <Shape shapeId="9" name="decals" translation="0 0.457777 -0.595954" clipDistance="30" nodeId="95" materialIds="13" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+              <TransformGroup name="attacherJoint_WL" translation="0 0.2458 -0.6828" rotation="-90 -84.8496 90" nodeId="96"/>
+            </Shape>
+          </TransformGroup>
+          <TransformGroup name="gooseneckAttacherJoint" translation="0 0.0693972 0.00799275" nodeId="97"/>
+          <TransformGroup name="gooseneckAttacherJoint" translation="0 0.0693972 0.00799275" rotation="-0 180 0" nodeId="98"/>
+        </TransformGroup>
+        <TransformGroup name="pallet_big_vis" translation="0 -0.155294 0" clipDistance="300" nodeId="99">
+          <TransformGroup name="fillUnit" clipDistance="300" nodeId="100">
+            <Shape shapeId="10" name="bigBag_vis" translation="0 1.261 0" clipDistance="300" nodeId="101" materialIds="4" castsShadows="true" receiveShadows="true" skinBindNodeIds="140 139 138 137 136 135 134 133 131 130 129 128 127 126 125 124 123 122 144 143 142 141 121 120 116 115 114 113 112 111 110 109 108 107 106 105"/>
+            <TransformGroup name="fillModifiers" translation="-0.000186 1.05219 0" clipDistance="300" nodeId="102">
+              <TransformGroup name="top_modifier" translation="0 0.791 0" nodeId="103">
+                <TransformGroup name="top_modifier_susp" translation="0 -0.5 0" nodeId="104">
+                  <TransformGroup name="joint12" translation="-1.38287 0.49 0" nodeId="105"/>
+                  <TransformGroup name="joint11" translation="-1.21318 0.50174 0.635579" nodeId="106"/>
+                  <TransformGroup name="joint9" translation="0.000186 0.489694 0.867919" nodeId="107"/>
+                  <TransformGroup name="joint14" translation="1.21355 0.50174 0.635579" nodeId="108"/>
+                  <TransformGroup name="joint16" translation="1.21355 0.50174 -0.635579" nodeId="109"/>
+                  <TransformGroup name="joint15" translation="1.38324 0.489694 0" nodeId="110"/>
+                  <TransformGroup name="joint13" translation="-1.21318 0.50174 -0.635579" nodeId="111"/>
+                  <TransformGroup name="joint10" translation="0.000186 0.489694 -0.867919" nodeId="112"/>
+                  <TransformGroup name="joint25" translation="-0.565527 0.489694 0.851654" nodeId="113"/>
+                  <TransformGroup name="joint26" translation="0.565899 0.489694 0.851654" nodeId="114"/>
+                  <TransformGroup name="joint27" translation="-0.565527 0.489694 -0.851654" nodeId="115"/>
+                  <TransformGroup name="joint28" translation="0.565899 0.489694 -0.851654" nodeId="116"/>
+                  <Shape shapeId="11" name="col_top" translation="0.000186 -1.34469 0" compoundChild="true" collisionMask="2109442" density="0.02" nodeId="117" materialIds="9" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="middle_modifier" translation="0 0.129903 0" nodeId="118">
+                <TransformGroup name="middle_modifier_susp" clipDistance="300" nodeId="119">
+                  <TransformGroup name="joint12" translation="-1.38287 -0.010306 -0" nodeId="120"/>
+                  <TransformGroup name="joint11" translation="-1.21318 0.00174 0.635579" nodeId="121"/>
+                  <TransformGroup name="joint9" translation="0.000186 -0.010306 0.867919" nodeId="122"/>
+                  <TransformGroup name="joint14" translation="1.21355 0.00174 0.635579" nodeId="123"/>
+                  <TransformGroup name="joint16" translation="1.21355 0.00174 -0.635579" nodeId="124"/>
+                  <TransformGroup name="joint15" translation="1.38324 -0.010306 0" nodeId="125"/>
+                  <TransformGroup name="joint13" translation="-1.21318 0.00174 -0.635579" nodeId="126"/>
+                  <TransformGroup name="joint10" translation="0.000186 -0.010306 -0.867919" nodeId="127"/>
+                  <TransformGroup name="joint25" translation="-0.565527 -0.010306 0.851654" nodeId="128"/>
+                  <TransformGroup name="joint26" translation="0.565899 -0.010306 0.851654" nodeId="129"/>
+                  <TransformGroup name="joint27" translation="-0.565527 -0.010306 -0.851654" nodeId="130"/>
+                  <TransformGroup name="joint28" translation="0.565899 -0.010306 -0.851654" nodeId="131"/>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="bottom_modifier" translation="0 -0.603494 0" clipDistance="300" nodeId="132">
+                <TransformGroup name="joint12" translation="-1.38287 -0.010306 -0" nodeId="133"/>
+                <TransformGroup name="joint11" translation="-1.21318 0.00174 0.635579" nodeId="134"/>
+                <TransformGroup name="joint9" translation="0.000186 -0.010306 0.867919" nodeId="135"/>
+                <TransformGroup name="joint14" translation="1.21355 0.00174 0.635579" nodeId="136"/>
+                <TransformGroup name="joint16" translation="1.21355 0.00174 -0.635579" nodeId="137"/>
+                <TransformGroup name="joint15" translation="1.38324 -0.010306 0" nodeId="138"/>
+                <TransformGroup name="joint13" translation="-1.21318 0.00174 -0.635579" nodeId="139"/>
+                <TransformGroup name="joint10" translation="0.000186 -0.010306 -0.867919" nodeId="140"/>
+                <TransformGroup name="joint25" translation="-0.565527 -0.010306 0.851654" nodeId="141"/>
+                <TransformGroup name="joint26" translation="0.565899 -0.010306 0.851654" nodeId="142"/>
+                <TransformGroup name="joint27" translation="-0.565527 -0.010306 -0.851654" nodeId="143"/>
+                <TransformGroup name="joint28" translation="0.565899 -0.010306 -0.851654" nodeId="144"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="triggers" nodeId="145">
+            <Shape shapeId="12" name="fillTrigger" translation="0 -0.000200033 0" kinematic="true" compound="true" trigger="true" collisionMask="1073741824" nodeId="146" materialIds="11" nonRenderable="true" distanceBlending="false"/>
+            <Shape shapeId="13" name="dischargeTrigger" translation="0 1.40064 -3.35123" kinematic="true" compound="true" trigger="true" collisionMask="1073741824" nodeId="147" materialIds="8" nonRenderable="true" distanceBlending="false"/>
+            <Shape shapeId="14" name="exactFillRootNode" translation="0 -0.003 4.16144" kinematic="true" compound="true" collisionMask="1073741824" nodeId="148" materialIds="8" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+            <Shape shapeId="15" name="dynamicMountTrigger" kinematic="true" trigger="true" collisionMask="134217728" nodeId="149" materialIds="9" nonRenderable="true" distanceBlending="false"/>
+            <TransformGroup name="dischargeNode" translation="0 0.456628 0" nodeId="150"/>
+            <TransformGroup name="fillAutoAimTarget1" translation="0 2.65047 0" nodeId="151"/>
+          </TransformGroup>
+          <Shape shapeId="16" name="bigbag_dispenser" translation="0 0.296294 0" visibility="false" clipDistance="300" nodeId="152" materialIds="10" castsShadows="true" receiveShadows="true">
+            <TransformGroup name="effects" translation="0 -0.141 0" nodeId="153">
+              <Shape shapeId="17" name="pipeEffect" translation="0 -0.131 2.90937e-17" rotation="90 0 0" scale="1.4 1.4 1" clipDistance="100" nodeId="154" materialIds="6" castsShadows="true" receiveShadows="true"/>
+              <Shape shapeId="18" name="smokeEffect" translation="0 -2.18029 0" visibility="false" clipDistance="100" nodeId="155" materialIds="6" castsShadows="true" receiveShadows="true"/>
+            </TransformGroup>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="collisions" translation="0 -0.00298592 0" clipDistance="300" nodeId="156">
+          <Shape shapeId="19" name="solidCol" compoundChild="true" collisionMask="16781578" nodeId="157" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="20" name="col_base" compoundChild="true" collisionMask="2109442" density="0.02" nodeId="158" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="21" name="col_base" compoundChild="true" collisionMask="2109442" density="0.02" nodeId="159" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="22" name="col_base" compoundChild="true" collisionMask="2109442" density="0.02" nodeId="160" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+          <Shape shapeId="23" name="col_base" compoundChild="true" collisionMask="2109442" density="0.02" nodeId="161" materialIds="5" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </TransformGroup>
+      </Shape>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="105">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="106">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="107">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="108">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="109">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="110">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="111">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="112">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="113">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="114">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="115">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="116">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="120">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="121">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="122">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="123">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="124">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="125">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="126">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="127">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="128">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="129">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="130">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="131">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="133">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="134">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="135">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="136">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="137">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="138">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="139">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="140">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="141">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="142">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="143">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="144">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

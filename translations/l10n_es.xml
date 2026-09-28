@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>82Studio</translationContributors>
+
+    <texts>
+		<!-- Configurations -->
+		<text name="function_globalpallet" text="Palet para transportar toda la mercancía, a granel, producciones, etc."/>
+		<text name="function_globalbag" text="Saca para transportar toda la mercancía, a granel, producciones, etc."/>
+		<text name="configuration_valueUnreal" text="Irreal"/>
+
+		<!-- Colors -->
+		<text name="color_aluminum" text="Aluminio"/>
+		<text name="color_galvan" text="Galvanizado"/>
+		<text name="color_metal1" text="Metal especial"/>
+		<text name="color_biscuit_green" text="Galleta Verde"/>
+		<text name="color_biscuit_green_aged" text="Galleta Verde Usado"/>
+		<text name="color_biscuit_green_gloss" text="Galleta Verde Brillante"/>
+		<text name="color_biscuit_green_new_age" text="Galleta Verde Nueva Era"/>
+		<text name="color_biscuit_green_rugged" text="Galleta Verde Resistente"/>
+		<text name="color_black" text="Negro"/>
+		<text name="color_black_aged" text="Negro Usado"/>
+		<text name="color_black_gloss" text="Negro Brillante"/>
+		<text name="color_black_plastic" text="Negro Plástico"/>
+		<text name="color_black_rugged" text="Negro Resistente"/>
+		<text name="color_blaze_orange" text="Blaze Naranja"/>
+		<text name="color_blue_jeans" text=""/>
+		<text name="color_blue_jeans_rugged" text="Resistente"/>
+		<text name="color_bronze_fire" text="Bronce fuego"/>
+		<text name="color_chrome" text="Cromado"/>
+		<text name="color_chrome_black-out_1" text="Cromado"/>
+		<text name="color_chrome_black-out_2" text="Cromado"/>
+		<text name="color_chromerfection_1" text="Chromerfection 1"/>
+		<text name="color_chromerfection_2" text="Chromerfection 2"/>
+		<text name="color_cone_orange" text="Cono Naranja"/>
+		<text name="color_cone_orange_aged" text="Cono Naranja Usado"/>
+		<text name="color_cone_orange_gloss" text="Cono Naranja Brillante"/>
+		<text name="color_cone_orange_new_age" text="Cono Naranja Nueva Era"/>
+		<text name="color_cone_orange_rugged" text="Cono Naranja Resistente"/>
+		<text name="color_copperfection_1" text="Copperfection 1"/>
+		<text name="color_copperfection_2" text="Cobre pulido"/>
+		<text name="color_dark_moon" text="Luna oscura"/>
+		<text name="color_dark_steel" text="Acero oscuro"/>
+		<text name="color_deep_blue" text="Profundo Azul"/>
+		<text name="color_diamond_plate" text="Placa metálica"/>
+		<text name="color_gun_metal" text="Negro mate"/>
+		<text name="color_jack_moose" text="Jack Moose"/>
+		<text name="color_jack_moose_aged" text="Jack Moose Usado"/>
+		<text name="color_jack_moose_gloss" text="Jack Moose Brillante"/>
+		<text name="color_jack_moose_new_age" text="Jack Moose Nueva Era"/>
+		<text name="color_jack_moose_rugged" text="Jack Moose Resistente"/>
+		<text name="color_jungle_fever" text="Fiebre de la selva"/>
+		<text name="color_jungle_fever_aged" text="Fiebre de la selva Usado"/>
+		<text name="color_jungle_fever_gloss" text="Fiebre de la selva Brillante"/>
+		<text name="color_jungle_fever_new_age" text="Fiebre de la selva Nueva Era"/>
+		<text name="color_new_silver" text="Nueva plata"/>
+		<text name="color_nitro_blue" text="Nitro Azul"/>
+		<text name="color_old_citadel" text="Old Citadel"/>
+		<text name="color_old_citadel_aged" text="Old Citadel Usado"/>
+		<text name="color_old_citadel_gloss" text="Old Citadel Brillante"/>
+		<text name="color_old_citadel_new_age" text="Old Citadel Nueva Era"/>
+		<text name="color_old_citadel_rugged" text="Old Citadel Resistente"/>
+		<text name="color_olive" text="Oliva"/>
+		<text name="color_olive_aged" text="Oliva Usado"/>
+		<text name="color_olive_gloss" text="Oliva Brillante"/>
+		<text name="color_olive_new_age" text="Oliva Nueva Era"/>
+		<text name="color_olive_rugged" text="Oliva Resistente"/>
+		<text name="color_pearl_white" text="Perla Blanco"/>
+		<text name="color_pearl_white_gloss" text="Perla Blanco Brillante"/>
+		<text name="color_phoenix_blue" text="Fénix Azul"/>
+		<text name="color_phoenix_blue_aged" text="Fénix Azul Usado"/>
+		<text name="color_phoenix_blue_gloss" text="Fénix Azul Brillante"/>
+		<text name="color_phoenix_blue_new_age" text="Fénix Azul Nueva Era"/>
+		<text name="color_polished" text="Pulido"/>
+		<text name="color_pure_white" text="Puro Blanco"/>
+		<text name="color_race_red" text="Raza Rojo"/>
+		<text name="color_race_red_aged" text="Raza Rojo Usado"/>
+		<text name="color_race_red_gloss" text="Raza Rojo Brillante"/>
+		<text name="color_race_red_new_age" text="Raza Rojo Nueva Era"/>
+		<text name="color_race_red_rugged" text="Raza Rojo Resistente"/>
+		<text name="color_red_plastic" text="Rojo Plástico"/>
+		<text name="color_red_rugged" text="Rojo Resistente"/>
+		<text name="color_rubber" text="Goma"/>
+		<text name="color_ruby_red" text="Rubí Rojo"/>
+		<text name="color_ruby_red_aged" text="Rubí Rojo Usado"/>
+		<text name="color_ruby_red_gloss" text="Rubí Rojo Brillante"/>
+		<text name="color_ruby_red_new_age" text="Rubí Rojo Nueva Era"/>
+		<text name="color_ruby_red_rugged" text="Rubí Rojo Resistente"/>
+		<text name="color_rugged" text="Resistente"/>
+		<text name="color_scarlet_red" text="Escarlata Rojo"/>
+		<text name="color_school_bus" text="Autobús escolar"/>
+		<text name="color_school_bus_aged" text="Autobús escolar Usado"/>
+		<text name="color_school_bus_gloss" text="Autobús escolar Brillante"/>
+		<text name="color_school_bus_new_age" text="Autobús escolar Nueva Era"/>
+		<text name="color_school_bus_rugged" text="Autobús escolar Resistente"/>
+		<text name="color_stainless_steel" text="Acero inoxidable"/>
+		<text name="color_steel" text="Acero"/>
+		<text name="color_tiffany_blue" text="Tiffany Azul"/>
+		<text name="color_tiffany_blue_aged" text="Tiffany Azul Usado"/>
+		<text name="color_tiffany_blue_gloss" text="Tiffany Azul Brillante"/>
+		<text name="color_tiffany_blue_new_age" text="Tiffany Azul Nueva Era"/>
+		<text name="color_tiffany_blue_rugged" text="Chromerfection 2"/>
+		<text name="color_white" text="Blanco"/>
+		<text name="color_white_aged" text="Blanco Usado"/>
+		<text name="color_white_gold" text="Oro blanco"/>
+		<text name="color_white_plastic" text="Blanco Plástico"/>
+		<text name="color_white_rugged" text="Blanco Resistente"/>
+		<text name="color_yellow_plastic" text="Plástico"/>
+		<text name="color_dark_winter_wolf_gloss" text="Brillante"/>
+		<text name="color_dark_winter_wolf" text="Winter Wolf"/>
+		<text name="color_dark_winter_wolf_new_age" text="Nueva Era"/>
+		<text name="color_dark_winter_wolf_aged" text="Usado"/>
+		<text name="color_winter_wolf_gloss" text="Brillante"/>
+		<text name="color_winter_wolf" text="Winter Wolf"/>
+		<text name="color_winter_wolf_new_age" text="Winter Wolf Nueva Era"/>
+		<text name="color_winter_wolf_aged" text="Winter Wolf Usado"/>
+		<text name="color_mack_red_gloss" text="Mack Brillante"/>
+		<text name="color_mack_red" text="Mack"/>
+		<text name="color_mack_red_new_age" text="Mack Nueva Era"/>
+		<text name="color_mack_red_aged" text="Mack Usado"/>
+
+    </texts>
+</l10n>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+<translationContributors>82Studio</translationContributors>
+
+	<texts>
+		<text name="function_globalpallet" text="Paletten für den Transport aller Waren, Schüttgut, Produktionen usw."/>
+		<text name="function_globalbag" text="Bag für den Transport aller Waren, Schüttgut, Produktionen usw."/>
+		<text name="configuration_valueUnreal" text="Unreal"/>
+
+		<!-- Colors -->
+		<text name="color_aluminum" text="Aluminium"/>
+		<text name="color_galvan" text="Verzinkt"/>
+		<text name="color_metal1" text="Spezial Metall"/>
+		<text name="color_biscuit_green" text="Kekse Grün"/>
+		<text name="color_biscuit_green_aged" text="Kekse Grün Bejahrt"/>
+		<text name="color_biscuit_green_gloss" text="Kekse Grün Glänzend"/>
+		<text name="color_biscuit_green_new_age" text="Kekse Grün Neues Zeitalter"/>
+		<text name="color_biscuit_green_rugged" text="Kekse Grün Robuste"/>
+		<text name="color_black" text="Schwarz"/>
+		<text name="color_black_aged" text="Schwarz Bejahrt"/>
+		<text name="color_black_gloss" text="Schwarz Glänzend"/>
+		<text name="color_black_plastic" text="Schwarz Plastik"/>
+		<text name="color_black_rugged" text="Schwarz Robuste"/>
+		<text name="color_blaze_orange" text="Feuersbrunst Orange"/>
+		<text name="color_blue_jeans" text=""/>
+		<text name="color_blue_jeans_rugged" text="Robuste"/>
+		<text name="color_bronze_fire" text="Feuerbronze"/>
+		<text name="color_chrome" text="Chrom"/>
+		<text name="color_chrome_black-out_1" text="Chrom"/>
+		<text name="color_chrome_black-out_2" text="Chrom"/>
+		<text name="color_chromerfection_1" text="Chromerfection 1"/>
+		<text name="color_chromerfection_2" text="Chromerfection 2"/>
+		<text name="color_cone_orange" text="Kegel Orange"/>
+		<text name="color_cone_orange_aged" text="Kegel Orange Bejahrt"/>
+		<text name="color_cone_orange_gloss" text="Kegel Orange Glänzend"/>
+		<text name="color_cone_orange_new_age" text="Kegel Orange Neues Zeitalter"/>
+		<text name="color_cone_orange_rugged" text="Kegel Orange Robuste"/>
+		<text name="color_copperfection_1" text="Copperfection 1"/>
+		<text name="color_copperfection_2" text="Poliertes Kupfer"/>
+		<text name="color_dark_moon" text="Dunkler Mond"/>
+		<text name="color_dark_steel" text="Dunkler Stahl"/>
+		<text name="color_deep_blue" text="Tief Blau"/>
+		<text name="color_diamond_plate" text="Diamantplatte"/>
+		<text name="color_gun_metal" text="Mattes Schwarz"/>
+		<text name="color_jack_moose" text="Jack Elch"/>
+		<text name="color_jack_moose_aged" text="Jack Elch Bejahrt"/>
+		<text name="color_jack_moose_gloss" text="Jack Elch Glänzend"/>
+		<text name="color_jack_moose_new_age" text="Jack Elch Neues Zeitalter"/>
+		<text name="color_jack_moose_rugged" text="Jack Elch Robuste"/>
+		<text name="color_jungle_fever" text="Dschungel-Fieber"/>
+		<text name="color_jungle_fever_aged" text="Dschungel-Fieber Bejahrt"/>
+		<text name="color_jungle_fever_gloss" text="Dschungel-Fieber Glänzend"/>
+		<text name="color_jungle_fever_new_age" text="Dschungel-Fieber Neues Zeitalter"/>
+		<text name="color_new_silver" text="Neues Silber"/>
+		<text name="color_nitro_blue" text="Nitro Blau"/>
+		<text name="color_old_citadel" text="Alte Zitadelle"/>
+		<text name="color_old_citadel_aged" text="Alte Zitadelle Bejahrt"/>
+		<text name="color_old_citadel_gloss" text="Alte Zitadelle Glänzend"/>
+		<text name="color_old_citadel_new_age" text="Alte Zitadelle Neues Zeitalter"/>
+		<text name="color_old_citadel_rugged" text="Alte Zitadelle Robuste"/>
+		<text name="color_olive" text="Olive"/>
+		<text name="color_olive_aged" text="Olive Bejahrt"/>
+		<text name="color_olive_gloss" text="Olive Glänzend"/>
+		<text name="color_olive_new_age" text="Olive Neues Zeitalter"/>
+		<text name="color_olive_rugged" text="Olive Robuste"/>
+		<text name="color_pearl_white" text="Perle Weiß"/>
+		<text name="color_pearl_white_gloss" text="Perle Weiß Glänzend"/>
+		<text name="color_phoenix_blue" text="Phönix Blau"/>
+		<text name="color_phoenix_blue_aged" text="Phönix Blau Bejahrt"/>
+		<text name="color_phoenix_blue_gloss" text="Phönix Blau Glänzend"/>
+		<text name="color_phoenix_blue_new_age" text="Phönix Blau Neues Zeitalter"/>
+		<text name="color_polished" text="Poliert"/>
+		<text name="color_pure_white" text="Reines Weiß"/>
+		<text name="color_race_red" text="Rennen Rot"/>
+		<text name="color_race_red_aged" text="Rennen Rot Bejahrt"/>
+		<text name="color_race_red_gloss" text="Rennen Rot Glänzend"/>
+		<text name="color_race_red_new_age" text="Rennen Rot Neues Zeitalter"/>
+		<text name="color_race_red_rugged" text="Rasse Rot Robuste"/>
+		<text name="color_red_plastic" text="Rot Plastik"/>
+		<text name="color_red_rugged" text="Rot Robuste"/>
+		<text name="color_rubber" text="Gummi"/>
+		<text name="color_ruby_red" text="Rubin Rot"/>
+		<text name="color_ruby_red_aged" text="Rubin Rot Bejahrt"/>
+		<text name="color_ruby_red_gloss" text="Rubin Rot Glänzend"/>
+		<text name="color_ruby_red_new_age" text="Rubin Rot Neues Zeitalter"/>
+		<text name="color_ruby_red_rugged" text="Rubin Rot Robuste"/>
+		<text name="color_rugged" text="Robuste"/>
+		<text name="color_scarlet_red" text="Scharlach Rot"/>
+		<text name="color_school_bus" text="Schulbus"/>
+		<text name="color_school_bus_aged" text="Schulbus Bejahrt"/>
+		<text name="color_school_bus_gloss" text="Schulbus Glänzend"/>
+		<text name="color_school_bus_new_age" text="Schulbus Neues Zeitalter"/>
+		<text name="color_school_bus_rugged" text="Schulbus Robuste"/>
+		<text name="color_stainless_steel" text="Rostfreier Stahl"/>
+		<text name="color_steel" text="Stahl"/>
+		<text name="color_tiffany_blue" text="Tiffany Blau"/>
+		<text name="color_tiffany_blue_aged" text="Tiffany Blau Bejahrt"/>
+		<text name="color_tiffany_blue_gloss" text="Tiffany Blau Glänzend"/>
+		<text name="color_tiffany_blue_new_age" text="Tiffany Blau Neues Zeitalter"/>
+		<text name="color_tiffany_blue_rugged" text="Chromerfection 2"/>
+		<text name="color_white" text="Weiß"/>
+		<text name="color_white_aged" text="Weiß Bejahrt"/>
+		<text name="color_white_gold" text="Weißgold"/>
+		<text name="color_white_plastic" text="Weiß Plastik"/>
+		<text name="color_white_rugged" text="Weiß Robuste"/>
+		<text name="color_yellow_plastic" text="Plastik"/>
+		<text name="color_dark_winter_wolf_gloss" text="Glänzend"/>
+		<text name="color_dark_winter_wolf" text="Winter Wolf"/>
+		<text name="color_dark_winter_wolf_new_age" text="Neues Zeitalter"/>
+		<text name="color_dark_winter_wolf_aged" text="Winter Wolf Bejahrt"/>
+		<text name="color_winter_wolf_gloss" text="Winter Wolf Glänzend"/>
+		<text name="color_winter_wolf" text="Winter Wolf"/>
+		<text name="color_winter_wolf_new_age" text="Winter Wolf Neues Zeitalter"/>
+		<text name="color_winter_wolf_aged" text="Winter Wolf Bejahrt"/>
+		<text name="color_mack_red_gloss" text="MACK Glänzend"/>
+		<text name="color_mack_red" text="MACK"/>
+		<text name="color_mack_red_new_age" text="MACK Neues Zeitalter"/>
+		<text name="color_mack_red_aged" text="MACK Bejahrt"/>
+	</texts>
+</l10n>
